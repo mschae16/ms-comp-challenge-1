@@ -1,1 +1,5 @@
 /*BASE STYLES*/
+
+body {
+  display: flex;
+}
