@@ -33,7 +33,7 @@ body {
 }
 
 .menu-box {
-  height: 33.333%;
+  height: 33.333vh;
   padding: 10px;
   width: 33.333%;
 }
@@ -154,7 +154,7 @@ p {
   background-size: cover;
   box-shadow: 0 0 200px rgba(0,0,0,0.6) inset;
   display: block;
-  height: 33.333%;
+  height: 33.333vh;
   width: 33.333%;
 }
 
@@ -178,12 +178,10 @@ p {
 @media screen and (max-width: 770px) {
 
 .hidden-image {
-  height: 35vh;
   width: 33.333%;
 }
 
 .box1 {
-  height: 35vh;
   width: 66.666%;
 }
 
