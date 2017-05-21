@@ -58,6 +58,7 @@ body {
 .box1 {
   background: #212121;
   color: white;
+  padding: 30px;
   width: 66.666%;
 }
 
@@ -103,9 +104,41 @@ button {
   float: right;
 }
 
+.circles {
+  float: right;
+}
+
+.fa-circle {
+  opacity: 0.3;
+  padding: 3px;
+}
+
+.circle-one {
+  opacity: 1;
+}
+
+.arrows {
+  font-size: 40px;
+  margin: 50% 5%;
+  color: #757575;
+}
+
+.fa-angle-double-right {
+  float: right;
+}
+
+.fa-angle-double-left:hover,
+.fa-angle-double-right:hover {
+  color: #212121;
+}
+
 /*MEDIA QUERIES*/
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1050px) {
+
+.box1 {
+  padding: 20px;
+}
 
 h1 {
   font-size: 25px;
@@ -113,6 +146,10 @@ h1 {
 
 p {
   line-height: 20px;
+}
+
+.arrows {
+  margin: 60% 5%;
 }
 
 }
@@ -135,6 +172,7 @@ p {
 }
 
 .box1 {
+  padding: 15px;
   width: 33.333%;
   text-align: center;
 }
@@ -149,12 +187,12 @@ p {
 
 .hidden-image {
   width: 33.333%;
-  height: 33.333%;
+  height: 35vh;
 }
 
 .box1 {
   width: 66.666%;
-  height: 33.333%;
+  height: 35vh;
 }
 
 .box8 {
@@ -173,6 +211,7 @@ p {
 
 .menu-box {
   width: 50%;
+  height: 25vh;
 }
 
 .box2, .box5, .box6 {
@@ -185,7 +224,7 @@ p {
 
 .box1 {
   width: 100%;
-  height: 40%;
+  height: 40vh;
   text-align: center;
 }
 
@@ -197,10 +236,5 @@ p {
   display: block;
   margin: auto;
 }
-
-}
-
-@media screen and (max-width: 350px) {
-
 
 }
