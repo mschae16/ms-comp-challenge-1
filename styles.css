@@ -17,58 +17,50 @@ body {
 }
 
 .container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  width: 60%;
-  height: 100vh;
-  float: left;
-
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
-  -webkit-flex-flow: row wrap;
+  float: left;
+  height: 100vh;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 60%;
 }
 
-.hidden-image {
-  display: none;
-}
-
+.hidden-image,
 #jack-icon {
   display: none;
 }
 
 .menu-box {
+  height: 33.333%;
   padding: 10px;
   width: 33.333%;
-  height: 33.333%;
 }
 
 .box3, .box5, .box7 {
   background: #757575;
 }
 
-.box2, .box4, .box6, .box8 {
+.box2, .box4,
+.box6, .box8 {
   background: #bdbdbd;
 }
 
 .box1 {
   background: #212121;
-  color: white;
+  color: #ffffff;
   padding: 30px;
   width: 66.666%;
 }
 
 .box2, .box3, .box4,
 .box5, .box6, .box7, .box8 {
-  color: black;
+  align-items: center;
+  color: #000000;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   text-align: center;
 }
 
@@ -94,14 +86,14 @@ button {
 }
 
 .desktop-image {
-  box-shadow: 0 0 200px rgba(0,0,0,0.6) inset;
   background-image: url("assets/jack-skellington.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
-  width: 40%;
-  height: 100vh;
+  box-shadow: 0 0 200px rgba(0,0,0,0.6) inset;
   float: right;
+  height: 100vh;
+  width: 40%;
 }
 
 .circles {
@@ -118,9 +110,9 @@ button {
 }
 
 .arrows {
+  color: #757575;
   font-size: 40px;
   margin: 50% 5%;
-  color: #757575;
 }
 
 .fa-angle-double-right {
@@ -157,24 +149,24 @@ p {
 @media screen and (max-width: 950px) {
 
 .hidden-image {
-  display: block;
   background-image: url("assets/jack-skellington.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 33.333%;
-  height: 33.333%;
   box-shadow: 0 0 200px rgba(0,0,0,0.6) inset;
+  display: block;
+  height: 33.333%;
+  width: 33.333%;
 }
 
 .container {
-  width: 100%;
   height: 100vh;
+  width: 100%;
 }
 
 .box1 {
   padding: 15px;
-  width: 33.333%;
   text-align: center;
+  width: 33.333%;
 }
 
 .desktop-image {
@@ -186,19 +178,19 @@ p {
 @media screen and (max-width: 770px) {
 
 .hidden-image {
-  width: 33.333%;
   height: 35vh;
+  width: 33.333%;
 }
 
 .box1 {
-  width: 66.666%;
   height: 35vh;
+  width: 66.666%;
 }
 
 .box8 {
   background: #607D8B;
+  height: 33.333vh;
   width: 100%;
-  height: 33.333%;
 }
 
 }
@@ -210,8 +202,8 @@ p {
 }
 
 .menu-box {
-  width: 50%;
   height: 25vh;
+  width: 50%;
 }
 
 .box2, .box5, .box6 {
@@ -223,9 +215,9 @@ p {
 }
 
 .box1 {
-  width: 100%;
   height: 40vh;
   text-align: center;
+  width: 100%;
 }
 
 .box8 {
