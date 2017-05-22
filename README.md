@@ -7,5 +7,6 @@ This project required the design of a static, fully responsive website, based on
 ## My Version
 
 ## GitHub Pages
-
+[The Static Comp on GitHub Pages](https://mschae16.github.io/ms-comp-challenge-1/)
 ## Contributors
+Margo Schaedel
