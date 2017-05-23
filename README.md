@@ -4,7 +4,11 @@ This project required the design of a static, fully responsive website, based on
 
 ## Original Comp
 
+![Original Comp](/screenshots-static-comp/original-comp-scrnsht.png?raw=true)
+
 ## My Version
+
+![My Version](/screenshots-static-comp/my-version-scrnsht.png?raw=true)
 
 ## GitHub Pages
 [The Static Comp on GitHub Pages](https://mschae16.github.io/ms-comp-challenge-1/)
